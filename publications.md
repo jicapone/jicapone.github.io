@@ -1,6 +1,8 @@
+---
 layout: page
 title: "John I. Capone: Publications"
 permalink: /CV/publications/
+---
 
 **Cross-dispersion setup for an integrated near-IR astrophotonic spectrograph**  
 *Harsha Pradeep, Pradip Gatkine, Sylvain Veilleux, Yang Zhang, John I. Capone, Mario Dagenais, et al.*  
