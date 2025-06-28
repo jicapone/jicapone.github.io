@@ -6,7 +6,7 @@ permalink: /CV/publications/
 
 # {{ page.title }}
 
-<div style="max-width:800px; margin:1.5rem auto;">
+<div markdown="1" style="max-width:800px; margin:1.5rem auto;">
 
 **Cross-dispersion setup for an integrated near-IR astrophotonic spectrograph**  
 *Harsha Pradeep, Pradip Gatkine, Sylvain Veilleux, Yang Zhang, John I. Capone, Mario Dagenais, et al.*  
