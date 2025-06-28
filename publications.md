@@ -4,6 +4,16 @@ title: "John I. Capone: Publications"
 permalink: /CV/publications/
 ---
 
+# {{ page.title }}
+
+<style>
+  /* limit the entire page container to 800px and center it */
+  main {
+    max-width: 800px;
+    margin: 1.5rem auto;
+  }
+</style>
+
 **Cross-dispersion setup for an integrated near-IR astrophotonic spectrograph**  
 *Harsha Pradeep, Pradip Gatkine, Sylvain Veilleux, Yang Zhang, John I. Capone, Mario Dagenais, et al.*  
 *Proceedings of SPIE (Photonic Instrumentation Engineering XII)* **13373**, 133730U (2025).  
