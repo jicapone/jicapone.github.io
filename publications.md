@@ -6,13 +6,7 @@ permalink: /CV/publications/
 
 # {{ page.title }}
 
-<style>
-  /* limit the entire page container to 800px and center it */
-  main {
-    max-width: 800px;
-    margin: 1.5rem auto;
-  }
-</style>
+<div style="max-width:800px; margin:1.5rem auto;">
 
 **Cross-dispersion setup for an integrated near-IR astrophotonic spectrograph**  
 *Harsha Pradeep, Pradip Gatkine, Sylvain Veilleux, Yang Zhang, John I. Capone, Mario Dagenais, et al.*  
@@ -283,3 +277,5 @@ We present the optical design of the Rapid Infrared Imager/Spectrometer (RIMAS),
 We report early development of the Rapid Infrared Imager/Spectrometer (RIMAS), focusing on its cryogenic optical subsystem. RIMAS is designed for imaging and spectroscopy from 0.9–2.5 μm with fast response to transient targets. We discuss trade-offs in the optical design, including the choice of a reflective collimator for broad wavelength correction and the use of cold stops to control thermal background. Preliminary analysis of optical tolerances indicates alignment must be maintained within ~50 μm to preserve image quality at 1 μm. We also outline initial test results of a small-scale prototype demonstrating the viability of the proposed optical layout at cryogenic temperature. These analyses guided the final design presented in our subsequent 2014 report.
 
 </details>
+
+</div>
