@@ -4,7 +4,7 @@ title: "John I. Capone: Publications"
 permalink: /CV/publications/
 ---
 
-# {{ page.title }}
+<h1 style="text-align:center;">{{ page.title }}</h1>
 
 <div markdown="1" style="max-width:800px; margin:1.5rem auto;">
 
