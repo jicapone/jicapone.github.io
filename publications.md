@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "John I. Capone: Publications"
-permalink: /CV/publications/
+permalink: /CV/pubs/
 ---
 
 <h1 style="text-align:center;">{{ page.title }}</h1>
