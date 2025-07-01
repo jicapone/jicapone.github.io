@@ -274,7 +274,7 @@ The Rapid Infrared Imager/Spectrometer (RIMAS) is designed to perform follow-up 
 
 **The development and analysis of cryogenic optical systems for the Rapid Infrared Imager/Spectrometer**  
 *John I. Capone, David A. Content, Ori D. Fox, Neil A. Gehrels, Alexander S. Kutyrev, Gennadiy N. Lotkin, Samuel H. Moseley, Frederick D. Robinson, Vicki L. Toy, Sylvain Veilleux, and Stuart N. Vogel*
-*Proceedings of SPIE (Cryogenic Optical Systems and Instruments)* **8863**,  88630D (2013)
+*Proceedings of SPIE (Cryogenic Optical Systems and Instruments)* **8863**,  88630D (2013).
 <a href="https://doi.org/10.1117/12.2023123" target="_blank" rel="noopener noreferrer">DOI: 10.1117/12.2023123</a>
 <details><summary>Abstract</summary>
 
