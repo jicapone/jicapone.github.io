@@ -87,13 +87,12 @@
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
 
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemiii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in]}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
-
-\newcommand{\hex}{\begin{tiny} $\hexagonblack$ \end{tiny}}
 
 %----------DOCUMENT BEGINS HERE----------
 \begin{document}
@@ -105,8 +104,7 @@
 
 \begin{adjustwidth}{50pt}{50pt}
 \raggedright
-\small Optical scientist with 14+ years designing systems including 10mm-scale freeform optics\\
-and volume phase holographic gratings (VPHGs). Developer of GPU-accelerated Python tools for optical modeling. Extensive prototyping experience with manufacturing partners.
+\small Optical scientist and engineer with 14+ years of experience advancing scientific and spaceflight instrumentation from concept to flight. Skilled in high-fidelity modeling and hands-on implementation, including prototyping, lab measurements, automated test setups, and optical alignment. Developer of open-source Python libraries for ray tracing and wavefront analysis that surpass the capabilities of commercial software. Proven leader and cross-functional collaborator, delivering innovative solutions that bridge science objectives and engineering constraints.
 \end{adjustwidth}
 
 %-----------SKILLS-----------
@@ -114,16 +112,20 @@ and volume phase holographic gratings (VPHGs). Developer of GPU-accelerated Pyth
 \begin{itemize}[leftmargin=0.15in, label={}]
     \small{
         \item\begin{minipage}[t]{\linewidth}
-            \textbf{Optical Design \& Analysis}: \hangindent=50pt \hangafter=1 Compact systems, Holographic optics, Diffractive optics, Illumination, System architecture, End-to-end modeling, Tolerancing, Radiometry, Wavefront propagation, Interferometry, Stray light
+            \textbf{Design \& System Architecture}: \hangindent=25pt \hangafter=1 \raggedright Optical system architecture; Compact imaging systems; Holographic and diffractive optics; Freeform optics; Illumination design; Requirements flowdown and validation; Verification planning; Performance budgets
         \end{minipage}
         \item\begin{minipage}[t]{\linewidth}
-            \textbf{Programming \& Tools}: \hangindent=50pt \hangafter=1 Python, PyTorch, Custom ray tracing, Zemax OpticStudio (ZOS) API, RCWA/GSolver, ENZ, Git, FDTD, Code V, FRED, MATLAB, LabVIEW, SolidWorks, Autodesk Inventor
+            \textbf{Optical Modeling}: \hangindent=25pt \hangafter=1 \raggedright High-fidelity ray tracing; Wavefront propagation; Extended Nijboer-Zernike (ENZ) analysis; Rigorous Coupled-Wave Analysis (RCWA); Radiometry; Interferometry; Finite-Difference Time-Domain (FDTD); Stray light; End-to-end modeling; Tolerancing; Monte Carlo (MC) analysis
         \end{minipage}
         \item\begin{minipage}[t]{\linewidth}
-            \textbf{Laboratory \& Prototyping}: \hangindent=50pt \hangafter=1 Prototype development, Manufacturing partnerships, Cleanroom operations, Optical AIT, Fizeau/LUPI interferometry, CMM metrology, Spectroradiometry, Rapid iteration, Cryogenic \& vacuum testing
+            \textbf{Hardware Implementation}: \hangindent=25pt \hangafter=1 \raggedright Custom test setups; Data ananlysis; Specifications; Drawings; Vendor technical interface; Prototyping; Alignment, integration, \& test (AIT); Fizeau and LUPI interferometry; Spectroradiometry; Coordinate measuring machines; Cryogenic and vacuum testing; Cleanroom operations; Experimental nuclear physics
+        \end{minipage}
+        \item\begin{minipage}[t]{\linewidth}
+            \textbf{Software Development \& Tools}: \hangindent=25pt \hangafter=1 \raggedright Python; PyTorch; Git; Custom ray tracing libraries; Zemax OpticStudio (ZOS) API; GSolver; Code V; FRED; MATLAB; LabVIEW; SolidWorks; Autodesk Inventor; VS Code; C
         \end{minipage}
     }
 \end{itemize}
+
 
 %-----------EXPERIENCE-----------
 \section{Experience}
@@ -132,53 +134,52 @@ and volume phase holographic gratings (VPHGs). Developer of GPU-accelerated Pyth
       {Optical Design and Analysis Group Lead}{November 2024 -- Present}
       {NASA Goddard Space Flight Center}{Greenbelt, MD, USA}
       \resumeItemListStart
-        \resumeItem{Support project staffing and technical oversight}
-        \resumeItem{Organize and deliver technical talks to facilitate knowledge-sharing and promote cross-project learning}
-        \resumeItem{Coordinate peer reviews to promote engineering rigor and collaboration}
+        \resumeItem{Supports Optics Branch leadership (100+ personnel) with capability assessments, technical oversight, and project staffing for a team of 16 optical scientists and engineers, including 10 Ph.D.-level staff}
+        \resumeItem{Organizes and delivers technical talks to promote cross-project learning and accelerate knowledge transfer across missions}
+        \resumeItem{Coordinates peer reviews and updated group work instruction to strengthen engineering rigor, foster collaboration, and improve quality control}
       \resumeItemListEnd
 
     \resumeSubheading
-      {Optics Lead for NASA payloads}{April 2021 -- Present}
+      {Optics Lead for NASA Payloads}{April 2021 -- Present}
       {NASA Goddard Space Flight Center}{Greenbelt, MD, USA}
       \resumeItemListStart
-        \resumeItem{Create custom software tools, e.g., GPU accelerated ray tracing, ENZ analysis, heterodyne DWS signal simulation}
-        \resumeItem{Exploring application of FDTD tool to UV diffraction problem}
-        \resumeItem{Develop system architectures, interfaces, and requirements within cross-functional teams}
-        \resumeItem{End-to-end design, modeling, and analysis of compact optical systems utilizing refractive elements and freeform surfaces}
-        \resumeItem{Translate system requirements into manufacturable optical specifications}
-        \resumeItem{Investigated 3D printing methods for optical surface prototyping, achieving 3x improvement in surface form}
-        \resumeItem{Designed illumination systems including LED baffle optimization (CCRS), solar simulator OGSE (OSAM-1), and laser-plasma source coupling optics (CHARMS) using custom and non-sequential ray tracing}
-        \resumeItem{Deliver results tailored to mission needs for technical trades and formal reviews}
+        \resumeItem{Reduced CCRS Vision System camera count from 13 to 7 within two months of onboarding by scripting a custom spatial-resolution analysis}
+        \resumeItem{Added color imaging to LExSO Hi Res Imager with minimal impact to cost, schedule, or complexity}
+        \resumeItem{Saved CUVIS cost and schedule by identifying existing Optical Ground Support Equipment (OGSE)}
+        \resumeItem{Applied COTS components across missions to reduce cost, mitigate risk, and accelerate schedules}
+        \resumeItem{Designed and optimized illumination systems using custom and non-sequential ray tracing for CCRS, OSAM-1, and CHARMS}
+        \resumeItem{Developed advanced Python tools (GPU ray tracing, ENZ PSF, heterodyne DWS) exceeding commercial software capabilities}
+        \resumeItem{Validated CCRS vision requirements using synthetic imagery and machine learning to assess compliance}
+        \resumeItem{Led IRAD research into 3D printed optical prototyping, achieving 3× improvement in surface form accuracy}
       \resumeItemListEnd
 
-    \resumeSubheading
+    % did I do anything to save cost or schedule?
+    \resumeSubheading 
       {Optics Lead for HARMONI Spectrograph System}{July 2016 -- April 2021}
       {University of Oxford}{Oxford, UK}
       \resumeItemListStart
-        \resumeItem{Led optical design, modeling, and analysis of visible \& near-IR optics for key systems of science instrument for 39-meter ELT}
-        \resumeItem{Developed Python library to simulate alignment and cryogenic testing of as-built optics}
-        \resumeItem{Modeled (RCWA), procured, and tested VPHG; collaborated with KOSI and Wasatch; visited INAF and Syzygy VPHG labs}
-        \resumeItem{Designed and built spectroradiometer for VPHG efficiency qualification; preliminary measurements presented at SPIE}
-        \resumeItem{Led design and procurement of prototype off-axis mirror; coordinated with Glyndwr and tested alignment concept in lab}
-        \resumeItem{Designed test setups, authored procedures, and performed laboratory measurements of prototype optics}
-        \resumeItem{Assembled and aligned optical systems in ISO 7 cleanroom environment}
-        \resumeItem{Collaborated across international partners on interface development and requirements flowdown}
-        \resumeItem{Adapted to evolving project requirements in a cross-functional team using agile (Scrum) methods}
+        \resumeItem{Led design and analysis of €4M Spectrograph system for first-light integral field spectrograph on the 39-meter ELT}
+        \resumeItem{Designed refractive visible and near-IR cameras operated at 130 K; developed solutions with limited lens materials due to size}
+        \resumeItem{Delivered realistic as-built MC analysis with custom Python library + ZOS API to simulate manufactured optics, including mid-spatial errors, and AIT}
+        \resumeItem{Modeled, procured, and tested custom VPH gratings; developed spectroradiometer; collaborated with KOSI, Wasatch, INAF, and Syzygy}
+        \resumeItem{Led prototype mirror procurement and vendor engagement; authored RFQs, evaluated responses, and conducted site visits}
+        \resumeItem{Directed stray light modeling and baffle design; supported internal and ESO reviews with documentation and presentations}
         \resumeItem{Supervised Ph.D. research and demonstrated optical fundamentals in undergraduate lab}
       \resumeItemListEnd
 
     \resumeSubheading
-      {Graduate Researcher for Near-IR Spectrometer}{June 2011 -- June 2016}
+      {Graduate Researcher – Rapid Infrared Imager-Spectrometer (RIMAS)}{June 2011 -- June 2016}
       {University of Maryland / NASA GSFC}{Greenbelt, MD, USA}
       \resumeItemListStart
-        \resumeItem{Ph.D. research on design, modeling, and cryogenic testing of the Rapid Infrared Imager-Spectrometer (RIMAS)}
-        \resumeItem{Explored photonic OH-suppression architecture using fiber Bragg gratings for ground-based, near-IR spectroscopy}
-        \resumeItem{Modeled (RCWA) and collaborated with Wasatch and LLNL to procure VPHGs and ZnSe grating prisms (grisms)}
-        \resumeItem{Refined system-level requirements and formulated derived specifications}
-        \resumeItem{Developed optical prescriptions, tolerancing models, and alignment strategies for compact refractive systems}
-        \resumeItem{Authored manufacturing specifications and procured custom optics}
-        \resumeItem{Assembled, aligned, and tested refractive imaging systems}
+        \resumeItem{Led cryogenic optical design and modeling of RIMAS, a compact near-IR imaging spectrometer for rapid transient follow-up on the 4.3-m DCT}
+        \resumeItem{Refined system-level requirements, developed error budgets, and derived testable specifications}
+        \resumeItem{Developed Zemax models, tolerancing analyses, and alignment strategies for refractive optics operating at 60 K}
+        \resumeItem{Modeled, procured, and tested custom VPH gratings and ZnSe grisms; coordinated with Wasatch and LLNL to meet specifications}
+        \resumeItem{Assembled and aligned optical systems in ambient conditions; verified performance in cryogenic vacuum chamber}
+        \resumeItem{Explored photonic OH-suppression using fiber Bragg gratings to improve ground-based IR sensitivity}
+        \resumeItem{Authored manufacturing specifications, produced mechanical drawings, and interfaced with vendors to deliver custom optics}
       \resumeItemListEnd
+
 \resumeSubHeadingListEnd
 
 %-----------EDUCATION-----------
