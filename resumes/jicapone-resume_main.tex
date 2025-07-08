@@ -1,0 +1,234 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{stix}
+\usepackage{changepage}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\newcommand{\hex}{\begin{tiny} $\hexagonblack$ \end{tiny}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+
+\begin{center}
+    \textbf{\Huge \scshape John I. Capone, Ph.D.} \\ \vspace{1pt}
+    \small jicapone.optics@gmail.com $|$ 609-915-6213\\ \vspace{2pt}
+\end{center}
+
+\begin{adjustwidth}{50pt}{50pt}
+\raggedright
+\small Optical scientist with 14+ years designing systems including 10mm-scale freeform optics\\
+and volume phase holographic gratings (VPHGs). Developer of GPU-accelerated Python tools for optical modeling. Extensive prototyping experience with manufacturing partners.
+\end{adjustwidth}
+
+%
+%-----------SKILLS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{
+        \item{\textbf{Optical Design \& Analysis}{: Compact systems, Holographic optics, Diffractive optics, Illumination, System architecture, End-to-end modeling, Tolerancing, Radiometry, Wavefront propagation, Interferometry, Stray light}}\\
+        \item{\textbf{Programming \& Tools}{: Python, PyTorch, Custom ray tracing, Zemax OpticStudio (ZOS) API, RCWA/GSolver, ENZ, Git, FDTD, Code V, FRED, MATLAB, LabVIEW, SolidWorks, Autodesk  Inventor}} \\
+        \item{\textbf{Laboratory \& Prototyping}{: Prototype development, Manufacturing partnerships, Cleanroom operations, Optical AIT, Fizeau/LUPI interferometry, CMM metrology, Spectroradiometry, Rapid iteration, Cryogenic \& vacuum testing} }\\
+    }
+ \end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Optical Design and Analysis Group Lead}{November 2024 -- Present}
+      {NASA Goddard Space Flight Center}{Greenbelt, MD, USA}
+      \resumeItemListStart
+        \resumeItem{Support project staffing and technical oversight}
+        \resumeItem{Organize and deliver technical talks to facilitate knowledge-sharing and promote cross-project learning.}
+        \resumeItem{Coordinate peer reviews to promote engineering rigor and collaboration.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Optics Lead for NASA payloads}{April 2021 -- Present}
+      {NASA Goddard Space Flight Center}{Greenbelt, MD, USA}
+      \resumeItemListStart
+        \resumeItem{Create custom software tools, e.g., GPU accelerated ray tracing, ENZ analysis, heterodyne DWS signal simulation.}
+        \resumeItem{Exploring application of FDTD tool to UV diffraction problem.}
+        \resumeItem{Develop system architectures, interfaces, and requirements within cross-functional teams.}
+        \resumeItem{End-to-end design, modeling, and analysis of compact optical systems utilizing refractive elements and freeform surfaces.}
+        \resumeItem{Translate system requirements into manufacturable optical specifications.}
+        \resumeItem{Investigated 3D printing methods for optical surface prototyping, achieving 3x improvement in surface form.}
+        \resumeItem{Designed illumination systems including LED baffle optimization (CCRS), solar simulator OGSE (OSAM-1), and laser-plasma source coupling optics (CHARMS) using custom and non-sequential ray tracing.}
+        \resumeItem{Deliver results tailored to mission needs for technical trades and formal reviews.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Optics Lead for HARMONI Spectrograph System}{July 2016 -- April 2021}
+      {University of Oxford}{Oxford, UK}
+      \resumeItemListStart
+        \resumeItem{Led optical design, modeling, and analysis of visible \& near-IR optics for key systems of science instrument for 39-meter ELT.}
+        \resumeItem{Developed Python library to simulate alignment and cryogenic testing of as-built optics.}
+        \resumeItem{Modeled (RCWA), procured, and tested VPHG; collaborated with KOSI and Wasatch; visited INAF and Syzygy VPHG labs.}
+        \resumeItem{Designed and built spectroradiometer for VPHG efficiency qualification; preliminary measurements presented at SPIE.}
+        \resumeItem{Led design and procurement of prototype off-axis mirror; coordinated with Glyndwr and tested alignment concept in lab.}
+        \resumeItem{Designed test setups, authored procedures, and performed laboratory measurements of prototype optics.}
+        \resumeItem{Assembled and aligned optical systems in ISO 7 cleanroom environment.}
+        \resumeItem{Collaborated across international partners on interface development and requirements flowdown.}
+        \resumeItem{Adapted to evolving project requirements in a cross-functional team using agile (Scrum) methods.}
+        \resumeItem{Supervised Ph.D. research and demonstrated optical fundamentals in undergraduate lab.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Graduate Researcher for Near-IR Spectrometer}{June 2011 -- June 2016}
+      {University of Maryland / NASA GSFC}{Greenbelt, MD, USA}
+      \resumeItemListStart
+        \resumeItem{Ph.D. research on design, modeling, and cryogenic testing of the Rapid Infrared Imager-Spectrometer (RIMAS).}
+        \resumeItem{Explored photonic OH-suppression architecture using fiber Bragg gratings for ground-based, near-IR spectroscopy.}
+        \resumeItem{Modeled (RCWA) and collaborated with Wasatch and LLNL to procure VPHGs and ZnSe grating prisms (grisms).}
+        \resumeItem{Refined system-level requirements and formulated derived specifications.}
+        \resumeItem{Developed optical prescriptions, tolerancing models, and alignment strategies for compact refractive systems.}
+        \resumeItem{Authored manufacturing specifications and procured custom optics.}
+        \resumeItem{Assembled, aligned, and tested refractive imaging systems.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Maryland}{College Park, MD, USA}
+      {Doctor of Philosophy in Astronomy}{August 2010 -- June 2016}
+    \resumeSubheading
+      {George Washington University}{Washington, DC, USA}
+      {Bachelor of Science in Physics, Minor in Computer Science}{August 2006 -- May 2010}
+  \resumeSubHeadingListEnd
+
+%-----------PROFESSIONAL SERVICES-----------
+\section{Professional Services}
+ \begin{itemize}[leftmargin=0.15in, label={}, noitemsep, topsep=0pt]
+    \small{
+        \item{\textbf{Subject Matter Expert}{ in optical components for NASA source evaluation and SBIR proposal review (2021-present).}}
+        \item{\textbf{Peer and milestone reviewer}{ for NASA missions (2020-present).}} \\
+        \item{\textbf{Mentor}{ to interns and early-career colleagues in optics and scientific programming (2016-present).}}\\
+        \item{\textbf{Reviewer}{ for JATIS manuscripts on spaceborne UV instrumentation (2025).}}\\
+        \item{\textbf{Guest editor}{ for MDPI Aerospace special issue, "Space Telescopes \& Payloads" (2023).}}\\
+        \item{\textbf{Interviewer}{ at Ph.D. student milestones for the University of Oxford, Physics Department (2017–2021).}}\\
+    }
+ \end{itemize}
+
+%-----------SELECTED PRESENTATIONS-----------
+\section{Selected Presentations}
+ \begin{itemize}[leftmargin=0.15in, label={}, noitemsep, topsep=0pt]
+    \small{
+        \item{\textbf{Paris Observatory}{: Invited seminar for international audience on optical modeling and simulation using ZOS-API (2021).}}
+        \item{\textbf{NASA GSFC ISTD}{: Invited presentation for Division leadership on optical analysis workflow automation for CCRS (2021).}} \\
+        \item{\textbf{Zemax Envision Europe 2020}{: Invited talk on TMA alignment simulations using ZOS-API (2020).}}\\
+        \item{\textbf{MIT Kavli Institute}{: Invited seminar on HARMONI spectrographs (2019).}}\\
+    }
+ \end{itemize}
+
+ %-----------SELECTED PUBLICATIONS-----------
+\section{Selected Publications}
+\begin{itemize}[leftmargin=0.15in, label={}, noitemsep, topsep=0pt]
+    \small{
+        \item{Bos, B.J., et al. (including \textbf{Capone, J.I.}) (2024). Vision System for the Mars Sample Return Capture Containment and Return System (CCRS). \textit{Aerospace}, 11(6), 456. \href{https://doi.org/10.3390/aerospace11060456}{doi:10.3390/aerospace11060456}}
+        \item{\textbf{Capone, J.}, et al. (2020). HARMONI: first light spectroscopy for the ELT: simulating the alignment of a three-mirror anastigmat. \textit{Proc. SPIE}, 11447, 114472N. \href{https://doi.org/10.1117/12.2561519}{doi:10.1117/12.2561519}}
+        \item{\textbf{Capone, J.I.}, et al. (2018). Near infrared throughput and stray light measurements of diffraction gratings for ELT-HARMONI. \textit{Proc. SPIE}, 10706, 1070644. \href{https://doi.org/10.1117/12.2310086}{doi:10.1117/12.2310086}}
+        \item{\textbf{Capone, J.I.}, et al. (2014). Cryogenic optical systems for the rapid infrared imager/spectrometer (RIMAS). \textit{Proc. SPIE}, 9147, 914736. \href{https://doi.org/10.1117/12.2055503}{doi:10.1117/12.2055503}}
+        \item{\textit{Full publication list available at:} \href{https://jicapone.github.io/CV/pubs/}{jicapone.github.io/CV/pubs/}}
+    }
+\end{itemize}
+
+%-------------------------------------------
+\end{document}
