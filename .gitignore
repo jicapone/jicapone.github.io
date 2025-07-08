@@ -1,0 +1,30 @@
+# LaTeX temporary files
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+*.vrb
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+
+# PDF files
+*.pdf
+
+# Build directories
+_build/
+build/
+
+# Editor-specific files
+.vscode/
+.idea/
+*.swp
+*~
