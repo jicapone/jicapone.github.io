@@ -49,7 +49,7 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
+  \vspace{-4pt}\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
 % Ensure that generated PDF is machine readable/ATS parsable
@@ -86,8 +86,10 @@
 
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
 
-\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
-\renewcommand\labelitemiii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+%\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+%\renewcommand\labelitemiii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{\textbullet}
+\renewcommand\labelitemiii{\textbullet}
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
@@ -99,12 +101,14 @@
 
 \begin{center}
     \textbf{\Huge \scshape John I. Capone, Ph.D.} \\ \vspace{1pt}
-    \small jicapone.optics@gmail.com $|$ 609-915-6213\\ \vspace{2pt}
+    \small Ellicott City, Maryland, USA \\ \vspace{1pt}
+    \small jicapone.optics@gmail.com \\ \vspace{1pt}
+    \small  609-915-6213\\ \vspace{2pt}
 \end{center}
 
 \begin{adjustwidth}{50pt}{50pt}
 \raggedright
-\small Optical scientist and engineer with 14+ years of experience advancing scientific and spaceflight instrumentation from concept to flight. Skilled in high-fidelity modeling and hands-on implementation, including prototyping, lab measurements, automated test setups, and optical alignment. Developer of open-source Python libraries for ray tracing and wavefront analysis that surpass the capabilities of commercial software. Proven leader and cross-functional collaborator, delivering innovative solutions that bridge science objectives and engineering constraints.
+\small Optical scientist and engineer with 14+ years of experience advancing scientific and spaceflight instrumentation from concept to flight. Skilled in high-fidelity modeling and hands-on implementation, including prototyping, lab measurements, automated test setups, and optical alignment. Developer of open-source Python libraries for ray tracing and wavefront analysis, exceeding the capabilities of commercial software. Proven leader and cross-functional collaborator, delivering innovative, system-aware solutions that bridge science objectives and engineering constraints.
 \end{adjustwidth}
 
 %-----------SKILLS-----------
@@ -118,7 +122,7 @@
             \textbf{Optical Modeling}: \hangindent=25pt \hangafter=1 \raggedright High-fidelity ray tracing; Wavefront propagation; Extended Nijboer-Zernike (ENZ) analysis; Rigorous Coupled-Wave Analysis (RCWA); Radiometry; Interferometry; Finite-Difference Time-Domain (FDTD); Stray light; End-to-end modeling; Tolerancing; Monte Carlo (MC) analysis
         \end{minipage}
         \item\begin{minipage}[t]{\linewidth}
-            \textbf{Hardware Implementation}: \hangindent=25pt \hangafter=1 \raggedright Custom metrology design; Data ananlysis; Specifications; Drawings; Vendor technical interface; Prototyping; Alignment, integration, \& test (AIT); Fizeau and LUPI interferometry; Spectroradiometry; Coordinate measuring machines; Cryogenic and vacuum testing; Cleanroom operations; Experimental nuclear physics
+            \textbf{Hardware Implementation}: \hangindent=25pt \hangafter=1 \raggedright Custom metrology design; Data analysis; Specifications; Drawings; Vendor technical interface; Prototyping; Alignment, integration, \& test (AIT); Fizeau interferometry, LUPI; Spectroradiometry; CMMs (coordinate measuring machines); Cryogenic and vacuum testing; Cleanroom operations; Experimental nuclear physics
         \end{minipage}
         \item\begin{minipage}[t]{\linewidth}
             \textbf{Software Development \& Tools}: \hangindent=25pt \hangafter=1 \raggedright Python; PyTorch; Git; Custom ray tracing libraries; Zemax OpticStudio (ZOS) API; GSolver; Code V; FRED; MATLAB; LabVIEW; SolidWorks; Autodesk Inventor; VS Code; C
@@ -143,7 +147,7 @@
       {Optics Lead for NASA Payloads}{April 2021 -- Present}
       {NASA Goddard Space Flight Center}{Greenbelt, MD, USA}
       \resumeItemListStart
-        \resumeItem{Reduced CCRS Vision System from 13 to 7 cameras two months after onboarding using custom spatial-resolution analysis script}
+        \resumeItem{Reduced CCRS Vision System from 13 to 7 cameras two months after onboarding using custom system-level analysis pipeline}
         \resumeItem{Added color imaging to LExSO Hi Res Imager with minimal impact to cost, schedule, or complexity}
         \resumeItem{Saved CUVIS cost and schedule by identifying existing Optical Ground Support Equipment (OGSE)}
         \resumeItem{Applied COTS components across missions to reduce cost, mitigate risk, and accelerate schedules}
@@ -221,12 +225,12 @@
 \section{Selected Publications}
 \begin{itemize}[leftmargin=0.15in, label={}, noitemsep, topsep=0pt]
     \small{
-        \item{Bos, B.J., et al. (including \textbf{Capone, J.I.}) (2024). Vision System for the Mars Sample Return Capture Containment and Return System (CCRS). \textit{Aerospace}, 11(6), 456. \href{https://doi.org/10.3390/aerospace11060456}{doi:10.3390/aerospace11060456}}
-          \item{\textbf{Capone, J.}, et al. (2020). HARMONI: first light spectroscopy for the ELT: simulating the alignment of a three-mirror anastigmat. \textit{Proc. SPIE}, 11447, 114472N. \href{https://doi.org/10.1117/12.2561519}{doi:10.1117/12.2561519}}
-          \item{\textbf{Capone, J.I.}, et al. (2018). Near infrared throughput and stray light measurements of diffraction gratings for ELT-HARMONI. \textit{Proc. SPIE}, 10706, 1070644. \href{https://doi.org/10.1117/12.2310086}{doi:10.1117/12.2310086}}
-          \item{\textbf{Capone, J.I.}, et al. (2014). Cryogenic optical systems for the rapid infrared imager/spectrometer (RIMAS). \textit{Proc. SPIE}, 9147, 914736. \href{https://doi.org/10.1117/12.2055503}{doi:10.1117/12.2055503}}
+        \item{Bos, B.J., et al. (including \textbf{Capone, J.I.}) (2024). Vision System for the Mars Sample Return Capture Containment and Return System (CCRS). \textit{Aerospace}, 11(6), 456.}
+          \item{\textbf{Capone, J.}, et al. (2020). HARMONI: first light spectroscopy for the ELT: simulating the alignment of a three-mirror anastigmat. \textit{Proc. SPIE}, 11447, 114472N.}
+          \item{\textbf{Capone, J.I.}, et al. (2018). Near infrared throughput and stray light measurements of diffraction gratings for ELT-HARMONI. \textit{Proc. SPIE}, 10706, 1070644.}
+          \item{\textbf{Capone, J.I.}, et al. (2014). Cryogenic optical systems for the rapid infrared imager/spectrometer (RIMAS). \textit{Proc. SPIE}, 9147, 914736.}
           \bigskip
-          \item{Full publication list available at: \href{https://jicapone.github.io/CV/pubs/}{\textit{jicapone.github.io/CV/pubs/}}}
+          \item{Full publication list available at: \textit{jicapone.github.io/CV/pubs/}}
     }
 \end{itemize}
 
